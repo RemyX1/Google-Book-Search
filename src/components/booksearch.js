@@ -1,7 +1,7 @@
 import React from "react";
-import {Form, FormGroup, Label, Input, Button,} from 'reactstrap';
+import {Form, FormGroup, Label, Input, Button} from 'reactstrap';
 
-function BookSearch(props) {
+function bookSearch(props) {
     return (
         <div>
         <Form>
@@ -11,8 +11,8 @@ function BookSearch(props) {
           </FormGroup>
           <Button className="mb-3" color="primary">Search</Button>
         </Form>
-        </div>
+      </div>
     )
   }
 
-export default BookSearch;
+export default bookSearch;
